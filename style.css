@@ -1,0 +1,45 @@
+:root {
+    --blanco: hsl(0, 0%, 100%);
+    --grisclaro: hsl(212, 45%, 89%);
+    --azul: hsl(220, 15%, 55%);
+    --azuloscuro: hsl(218, 44%, 22%)
+}
+
+body{
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--grisclaro);
+}
+
+.container img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container h4{
+  color: var(--grisclaro);
+  font-weight: normal;
+  text-align: center;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 240px;
+    background-color: var(--blanco);
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+@media(min-width: 768px){
+    
+    .container{
+        margin-top: auto;
+        flex-direction: row;
+    }
+}
